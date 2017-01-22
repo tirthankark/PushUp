@@ -10,5 +10,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    
+
+    void increment(){
+        int i=0;
+        i=i+1;
+    }
 }
